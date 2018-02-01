@@ -24,8 +24,10 @@ The following addresses have listable directories which may potentially leak inf
 
 Targets:
 http://192.168.1.136/twiki/lib
+http://192.168.1.136/twiki/pub
 
-Severity:
+Confirmation Methodology:
+Dirb was used to brute force directory names
 
 Remediation:
 Enable basic password authentication
