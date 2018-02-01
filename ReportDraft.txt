@@ -33,6 +33,8 @@ Remediation:
 Enable basic password authentication
 https://httpd.apache.org/docs/2.4/howto/auth.html 
 
+...
+
 [Medium Severity]
 
 ...
