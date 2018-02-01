@@ -7,5 +7,4 @@ machines may not have static IPs, they will be referenced as such.
 
 Current VMs:
 
-via Vulnhub
-Metasploitable 1.0 - 192.168.1.136 
+Vulnhub Machines: Metasploitable1.0@(192.168.1.136) 
