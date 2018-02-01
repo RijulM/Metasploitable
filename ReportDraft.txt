@@ -2,8 +2,8 @@
 
 Executive Summary
 
-(Insert Company Name) was contracted to provide (Ficticious Company) with a penetration test and report its potential attack 
-surface. (Company) conducted activities to simulate a malicious attacker on the network.   
+(My Company Name) was contracted to provide (Ficticious Company Name) with a penetration test and report its potential attack 
+surface. (My Company) conducted activities to simulate a malicious attacker on the network.   
 
 ...
 
