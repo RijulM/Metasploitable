@@ -14,6 +14,27 @@ restricted to the 192.168.1.0/16 subnet. External/Physical testing was not permi
 
 ...
 
+Vulnerabilites
+
+[High Severity]
+
+Open Directory
+
+The following addresses have listable directories which may potentially leak information to escalate an attack.
+
+Targets:
+http://192.168.1.136/twiki/lib
+
+Severity:
+
+Remediation:
+Enable basic password authentication
+https://httpd.apache.org/docs/2.4/howto/auth.html 
+
+[Medium Severity]
+
+[Low Severity]
+
 References:
 
 Penetration Testing with Kali/OSCP Materials
