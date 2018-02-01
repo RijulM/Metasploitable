@@ -18,7 +18,7 @@ Vulnerabilites
 
 [High Severity]
 
-Open Directory
+1. Open Directory
 
 The following addresses have listable directories which may potentially leak information to escalate an attack.
 
@@ -33,7 +33,11 @@ https://httpd.apache.org/docs/2.4/howto/auth.html
 
 [Medium Severity]
 
+...
+
 [Low Severity]
+
+...
 
 References:
 
