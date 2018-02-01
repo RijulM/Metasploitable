@@ -22,7 +22,7 @@ Vulnerabilites
 
 The following addresses have listable directories which may potentially leak information to escalate an attack.
 
-Targets:
+Targets Affected:
 http://192.168.1.136/twiki/lib
 http://192.168.1.136/twiki/pub
 
@@ -36,6 +36,20 @@ https://httpd.apache.org/docs/2.4/howto/auth.html
 ...
 
 [Medium Severity]
+
+SMTP Insecure Methods
+
+The following hosts allow the VRFY command which may be used to enumerate
+users
+
+Targets Affected: 192.168.1.136
+
+Confirmation Methodology: netcat/ncat
+
+Remediation:
+Disable unsafe smtp methods (VRFY/EXPN)
+http://www.dummies.com/programming/networking/smtp-hacks-and-how-to-guard-against-them/
+https://www.rapid7.com/db/vulnerabilities/smtp-general-vrfy
 
 ...
 
