@@ -1,1 +1,22 @@
-asdf
+#192.168.1.x is a host-only network with any/all VMs.
+
+Executive Summary
+
+(Insert Company Name) was contracted to provide (Ficticious Company) with a penetration test and report its potential attack surface. (Company)
+conducted activities to simulate a malicious attacker on the network.   
+
+...
+
+Terms of Engagement Review
+
+Testing occured after-hours between 5:00pm and 9:00pm to minimize impact to business processes. Access to the internal network was
+restricted to the 192.168.1.0/16 subnet. External/Physical testing was not permitted.
+
+...
+
+References:
+
+Penetration Testing with Kali/OSCP Materials
+https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf
+https://www.sans.org/reading-room/whitepapers/bestprac/writing-penetration-testing-report-33343
+https://certification.comptia.org/docs/default-source/exam-objectives/comptia-pentest-exam-objectives-(2-0).pdf
