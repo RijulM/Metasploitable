@@ -1,4 +1,4 @@
-#192.168.1.135 identifies a Metasploitable 1.0 image
+#192.168.1.136 identifies a Metasploitable 1.0 image
 
 Executive Summary
 
