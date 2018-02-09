@@ -1,4 +1,6 @@
 #192.168.1.136 identifies a Metasploitable 1.0 image
+#This is not intended to be a polished deliverable; it's just a playground for blending my economics and 
+#cybersecurity backgrounds
 
 Executive Summary
 
@@ -6,6 +8,18 @@ Executive Summary
 surface. (My Company) conducted activities to simulate a malicious attacker on the network.   
 
 ...
+
+Intended Use
+
+Penetration Testing can provide a snapshot-in-time review of your company's security posture. Their are two 
+intended uses of the following deliverable. First, vulnerabilities can be remediated according to their 
+perceived threat to deliver short term benefits. Second, this document can be used to analyze IT Governance
+and commit lasting long term structural changes.
+At (My Company) we are commited to providing full-cycle support, and offer extended service packages to our 
+clients to assist in both these areas. 
+
+...
+
 
 Terms of Engagement Review
 
