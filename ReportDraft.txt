@@ -9,8 +9,8 @@ surface. (My Company) conducted activities to simulate a malicious attacker on t
 
 Terms of Engagement Review
 
-Testing occured after-hours between 5:00pm and 9:00pm to minimize impact to business processes. Access to the internal network
-was restricted to the 192.168.1.0/16 subnet. External/Physical testing was not permitted.
+Testing occured after-hours between 5:00pm and 9:00pm to minimize impact to business processes. Access to 
+the internal network was restricted to the 192.168.1.0/16 subnet. External/Physical testing was not permitted.
 
 ...
 
@@ -58,7 +58,9 @@ Cross Site Tracing attack
 
 Targets Affected: 192.168.1.136
 
-Confirmation Methodology: Nmap w/ http-methods script. Also verifiable with telnet/netcat
+Confirmation Methodology: Nmap w/ http-methods script. Also verifiable with telnet/netcat using 
+"OPTIONS / HTTP/1.0"
+Additional info: https://www.youtube.com/watch?v=5TCHeL2igqo (Credit: Solutionsatexperts)
 
 Remediation:
 Always disable unsafe methods (PUT, DELETE, CONNECT, TRACE)
