@@ -51,6 +51,19 @@ Disable unsafe smtp methods (VRFY/EXPN)
 http://www.dummies.com/programming/networking/smtp-hacks-and-how-to-guard-against-them/
 https://www.rapid7.com/db/vulnerabilities/smtp-general-vrfy
 
+HTTP Insecure Methods
+
+The following hosts allow the TRACE command which may be used to mount a 
+Cross Site Tracing attack
+
+Targets Affected: 192.168.1.136
+
+Confirmation Methodology: Nmap w/ http-methods script. Also verifiable with telnet/netcat
+
+Remediation:
+Always disable unsafe methods (PUT, DELETE, CONNECT, TRACE)
+https://www.owasp.org/index.php/Test_HTTP_Methods_(OTG-CONFIG-006)
+
 ...
 
 [Low Severity]
