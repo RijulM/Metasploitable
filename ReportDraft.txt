@@ -37,7 +37,7 @@ https://httpd.apache.org/docs/2.4/howto/auth.html
 
 [Medium Severity]
 
-SMTP Insecure Methods
+2. SMTP Insecure Methods
 
 The following hosts allow the VRFY command which may be used to enumerate
 users
@@ -51,7 +51,7 @@ Disable unsafe smtp methods (VRFY/EXPN)
 http://www.dummies.com/programming/networking/smtp-hacks-and-how-to-guard-against-them/
 https://www.rapid7.com/db/vulnerabilities/smtp-general-vrfy
 
-HTTP Insecure Methods
+3. HTTP Insecure Methods
 
 The following hosts allow the TRACE command which may be used to mount a 
 Cross Site Tracing attack
