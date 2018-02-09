@@ -1,5 +1,5 @@
 #192.168.1.136 identifies a Metasploitable 1.0 image
-#This is not intended to be a polished deliverable; it's just a playground for blending my economics and 
+#This is not intended to be a (fully) polished deliverable; it's just a playground for blending my economics and 
 #cybersecurity backgrounds
 
 Executive Summary
