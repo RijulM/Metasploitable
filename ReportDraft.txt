@@ -7,8 +7,8 @@ Executive Summary
 (My Company) was contracted to provide (Company Name) with a penetration test and report its potential attack 
 surface. (My Company) conducted activities to simulate a malicious attacker on the network.   
 The following report is a prioritized remediation list of attack vectors. By applying the suggested fixes, your 
-current system state will be reasonably protected against malicious activity. Though this is an internal test,
-it is crucial to maintain defense-in-depth or layered security.   
+current system state will be reasonably protected against malicious activity. Because this is an internal test,
+it is important to stress ensuring defense-in-depth or layered security.   
 
 ...
 
