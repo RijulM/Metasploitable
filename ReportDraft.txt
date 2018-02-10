@@ -1,19 +1,21 @@
 #192.168.1.136 identifies a Metasploitable 1.0 image
+#Vulnerability Assessment/Pen Test
 
 Executive Summary
 
-(My Company) was contracted to provide (Company Name) with a penetration test and report its potential attack 
-surface. (My Company) conducted activities to simulate a malicious attacker on the network.   
-The following report is a prioritized remediation list of attack vectors. By applying the suggested fixes, your 
-current system state will be reasonably protected against malicious activity. Because this is an internal test,
-it is important to stress ensuring defense-in-depth or layered security.   
+( Company) was contracted to provide (Client) with a penetration test and report its potential attack surface. 
+(Company) conducted activities to simulate a malicious attacker on the network.   
+The following report is a prioritized list of vulnerabilities discovered. The benefits of applying the 
+suggested fixes is a stronger security posture given the current system state. As this is exclusively an 
+internal test, we recommend testing for defense-in-depth or layered security from externally exposed 
+surfaces as well.   
 
 ...
 
 Intended Use
 
 Penetration Testing can provide a snapshot-in-time review of your company's security posture. Their are two 
-intended uses of the following deliverable. First, vulnerabilities can be remediated according to their 
+intended uses of the following deliverable. First, vulnerabilities can be remediated in order to their 
 perceived threat to deliver short term benefits. Second, this document can be used to analyze IT Governance
 and commit lasting long term structural changes.
 At (My Company) we are commited to providing full-cycle support, and offer extended service packages to our 
