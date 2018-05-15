@@ -35,7 +35,39 @@ Vulnerabilites
 
 [High Severity] (CVSS v2.0 Score 7.0-10.00) 
 
-1. Open Directory
+1. Tikiwiki Multiple Vulnerabilities
+
+The following hosts are affected by 15 vulnerabilities of CVSS 4.3-10.00:
+
+192.168.1.136
+
+Impact: 
+Varied. See below:
+https://www.cvedetails.com/vulnerability-list/vendor_id-12391/product_id-23390/version_id-136806/Tiki-Tikiwiki-Cms-groupware-1.9.5.html
+
+Confirmation Methodology:
+Manual verification of version
+
+Remediations:
+Update Tikiwiki.
+
+2. Default Credentials-Tikiwiki
+
+The following hosts have default administrative credentials:
+
+192.168.1.136/Tikiwiki [admin, admin]
+
+Impact:
+Grants potential attacker ability to upload files/exploits, inject malicious links (via hotwords), etc.
+
+Confirmation Methodology:
+Manual Testing
+
+Remediations:
+Change default administrative account password.
+
+
+3. Open Directory
 
 The following addresses have listable directories which may potentially leak information to escalate an attack.
 
@@ -54,10 +86,10 @@ https://httpd.apache.org/docs/2.4/howto/auth.html
 
 [Medium Severity] (CVSS v2.0 Score 4.0-6.9)
 
-2. SMTP Insecure Methods
+4. SMTP Insecure Methods
 
 The following hosts allow the VRFY command which may be used to enumerate
-users
+users:
 
 Targets Affected: 192.168.1.136
 
@@ -68,10 +100,10 @@ Disable unsafe smtp methods (VRFY/EXPN)
 http://www.dummies.com/programming/networking/smtp-hacks-and-how-to-guard-against-them/
 https://www.rapid7.com/db/vulnerabilities/smtp-general-vrfy
 
-3. HTTP Insecure Methods
+5. HTTP Insecure Methods
 
 The following hosts allow the TRACE command which may be used to mount a 
-Cross Site Tracing attack
+Cross Site Tracing attack:
 
 Targets Affected: 192.168.1.136
 
@@ -82,6 +114,7 @@ Additional info: https://www.youtube.com/watch?v=5TCHeL2igqo (Credit: Solutionsa
 Remediation:
 Always disable unsafe methods (PUT, DELETE, CONNECT, TRACE)
 https://www.owasp.org/index.php/Test_HTTP_Methods_(OTG-CONFIG-006)
+
 
 ...
 
