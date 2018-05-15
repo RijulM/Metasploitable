@@ -1,5 +1,7 @@
+#Vulnerability Assessment/Penetration Test
+
 #192.168.1.136 identifies a Metasploitable 1.0 image
-#Vulnerability Assessment/Pen Test
+#Some vulnerabilities (i.e. outdated software) will be incomplete as there are too many to list in Metasploitable 1.0
 
 Executive Summary
 
@@ -9,6 +11,8 @@ The following report is a prioritized list of vulnerabilities discovered. The be
 suggested fixes is a stronger security posture given the current system state. As this is exclusively an 
 internal test, we recommend testing for defense-in-depth or layered security from externally exposed 
 surfaces as well.   
+
+General Findings (...)
 
 ...
 
@@ -35,7 +39,23 @@ Vulnerabilites
 
 [High Severity] (CVSS v2.0 Score 7.0-10.00) 
 
-1. Tikiwiki Multiple Vulnerabilities
+1. Apache 2.2.8 Multiple Vulnerabilities 
+
+The following hosts are affected by 34 vulnerabilities of CVSS 1.3-10.00:
+
+192.168.1.136
+
+Impact:
+Varied. See below:
+https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-66/version_id-77221/Apache-Http-Server-2.2.8.html
+
+Confirmation Methodology:
+Nikto/Nmap
+
+Remediations:
+Update Apache.
+
+1. Tikiwiki 1.9.5 Multiple Vulnerabilities
 
 The following hosts are affected by 15 vulnerabilities of CVSS 4.3-10.00:
 
